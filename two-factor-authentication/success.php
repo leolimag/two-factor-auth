@@ -9,7 +9,7 @@
 </head>
 <body class="background">
 <div class="content-success">
-    <h1>CÃģdigo inserido corretamente!</h1>
+    <h1>Códiigo inserido corretamente!</h1>
     <p><a class="link" href="index.php">Voltar</a></p>
 </div>
 </body>
