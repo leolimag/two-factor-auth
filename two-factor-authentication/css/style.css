@@ -1,0 +1,123 @@
+.btn {
+  height: 44px;
+  width: 152px;
+  border-radius: 8px;
+  background: black;
+  color: #fddde3;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 34px;
+}
+
+.input-form {
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  height: 26px;
+  margin-bottom: 16px;
+  width: 230px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  margin: 0 0 34px 0;
+}
+
+.background {
+  background: linear-gradient(to left, #fffff4, #FFC0CB);
+  display: flex;
+  height: 800px;
+  align-items: center;
+  place-content: center;
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 64px;
+  background: #fdaab8;
+  border-radius: 12px;
+  width: 320px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* codigo de verificação */
+
+.auth-title {
+  font-size: 56px;
+  margin-bottom: 0;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-weight: bold;
+}
+
+.sub-title-auth {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 26px;
+}
+
+.input-form-auth {
+  border: 2px solid #424242;
+  border-radius: 6px;
+  color: black;
+  height: 34px;
+  margin-bottom: 16px;
+  background: transparent;
+  font-size: 22px;
+}
+
+.auth-btn {
+  height: 38px;
+  background: black;
+  color: white;
+  font-size: 22px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  margin-top: 8px;
+}
+
+/* pagina success */
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 0;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.content-success {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-success p {
+  justify-content: center;
+}
