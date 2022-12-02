@@ -38,8 +38,6 @@ if (isset($_POST['enviar'])) {
     } catch (Exception $e) {
         echo "message has no been sent. mailer error: {$mail->ErrorInfo}";
     }
-} else {
-    echo 'error sending email, access was not through the form.';
-}
+} 
 
 ?>
