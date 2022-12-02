@@ -11,7 +11,7 @@
   <div>
     <h2 class="auth-title">Código de Verificação</h2>
     <form action="auth.php" method="post">
-        <p class="sub-title-auth">Um código de verificação foi enviado ao seu e-mail</p>
+        <p class="sub-title-auth">Um código de verificação foi enviado ao seu e-mail!</p>
         <div class="form">
           <input class="input-form-auth" type="text" name="codigo" id="cod">
           <input class="auth-btn" type="submit" value="Verificar" name="verificar">
