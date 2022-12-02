@@ -39,7 +39,7 @@ if (isset($_POST['enviar'])) {
         echo "message has no been sent. mailer error: {$mail->ErrorInfo}";
     }
 } else {
-        echo 'error sending email, access was not through the form.';
+    echo 'error sending email, access was not through the form.';
 }
 
 ?>
