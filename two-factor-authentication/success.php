@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>CÃģdigo correto</title>
+    <title>Código correto</title>
 </head>
 <body class="background">
 <div class="content-success">
