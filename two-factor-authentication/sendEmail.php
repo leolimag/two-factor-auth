@@ -31,7 +31,7 @@ if (isset($_POST['enviar'])) {
         //mensagem do e-mail
         $mail->isHTML(true);                                  
         $mail->Subject = 'work - two-factor authentication';
-        $mail->Body = '<br>Seu código de verificação é: ' . '<b>' . $_SESSION['num'] . '</b>' . '<br>Atenciosamente, ' . '<br><br>Leonardo.';
+        $mail->Body = 'Seu código de verificação é: ' . '<b>' . $_SESSION['num'] . '</b>' . '<br>Atenciosamente, ' . '<br><br>Leonardo.';
         $mail->send();
         header('Location: input-code.php'); 
         die();
